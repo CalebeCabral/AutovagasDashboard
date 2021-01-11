@@ -1,0 +1,16 @@
+{
+  "name": "autovagas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass style/scss/style.scss style/css/style.css",
+    "watch": "node-sass --watch style/scss/style.scss style/css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
